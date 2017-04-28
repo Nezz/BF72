@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BF72.Arecibo", "BF72.Arecibo\BF72.Arecibo.csproj", "{A857D862-66A5-4FAC-AE5A-8E6133BB73E2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BF72.Shared", "BF72.Shared\BF72.Shared.shproj", "{D8BDC64E-D677-49E6-A2FD-EB8C826D2DE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BF72.Csv", "BF72.Csv\BF72.Csv.csproj", "{8C962C96-08EF-4DBF-9807-C6C60632C50E}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		BF72.Shared\BF72.Shared.projitems*{8c962c96-08ef-4dbf-9807-c6c60632c50e}*SharedItemsImports = 4
+		BF72.Shared\BF72.Shared.projitems*{a857d862-66a5-4fac-ae5a-8e6133bb73e2}*SharedItemsImports = 4
+		BF72.Shared\BF72.Shared.projitems*{d8bdc64e-d677-49e6-a2fd-eb8c826d2de2}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A857D862-66A5-4FAC-AE5A-8E6133BB73E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A857D862-66A5-4FAC-AE5A-8E6133BB73E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A857D862-66A5-4FAC-AE5A-8E6133BB73E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A857D862-66A5-4FAC-AE5A-8E6133BB73E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C962C96-08EF-4DBF-9807-C6C60632C50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C962C96-08EF-4DBF-9807-C6C60632C50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C962C96-08EF-4DBF-9807-C6C60632C50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C962C96-08EF-4DBF-9807-C6C60632C50E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
