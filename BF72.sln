@@ -9,9 +9,12 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BF72.Shared", "BF72.Shared\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BF72.Csv", "BF72.Csv\BF72.Csv.csproj", "{8C962C96-08EF-4DBF-9807-C6C60632C50E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BF72.Arecibo3D", "BF72.Arecibo3D\BF72.Arecibo3D.csproj", "{A595E43A-0825-43E6-A8B1-4FCDF4614E3E}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		BF72.Shared\BF72.Shared.projitems*{8c962c96-08ef-4dbf-9807-c6c60632c50e}*SharedItemsImports = 4
+		BF72.Shared\BF72.Shared.projitems*{a595e43a-0825-43e6-a8b1-4fcdf4614e3e}*SharedItemsImports = 4
 		BF72.Shared\BF72.Shared.projitems*{a857d862-66a5-4fac-ae5a-8e6133bb73e2}*SharedItemsImports = 4
 		BF72.Shared\BF72.Shared.projitems*{d8bdc64e-d677-49e6-a2fd-eb8c826d2de2}*SharedItemsImports = 13
 	EndGlobalSection
@@ -28,6 +31,10 @@ Global
 		{8C962C96-08EF-4DBF-9807-C6C60632C50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C962C96-08EF-4DBF-9807-C6C60632C50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C962C96-08EF-4DBF-9807-C6C60632C50E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A595E43A-0825-43E6-A8B1-4FCDF4614E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A595E43A-0825-43E6-A8B1-4FCDF4614E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A595E43A-0825-43E6-A8B1-4FCDF4614E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A595E43A-0825-43E6-A8B1-4FCDF4614E3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
